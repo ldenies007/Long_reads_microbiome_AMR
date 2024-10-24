@@ -1,0 +1,13 @@
+name: Subread
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - libgcc-ng=13.2.0=h807b86a_2
+  - libgomp=13.2.0=h807b86a_2
+  - libzlib=1.2.13=hd590300_5
+  - subread=2.0.6=he4a0461_0
+  - zlib=1.2.13=hd590300_5
+prefix: /home/ldenies/miniforge3/envs/Subread
