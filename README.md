@@ -33,6 +33,14 @@ You can activate and deactivate the environment using *conda activate Snakemake*
 
 ## Download databases
 Before running the pipeline for the first time you need to download the kraken2 and RGI (CARD) databases.
-```
+
 # For kraken all databases can be found at https://benlangmead.github.io/aws-indexes/k2
-~
+```
+# Download the standard-16 database
+cd Long_reads_microbiome_AMR
+wget https://genome-idx.s3.amazonaws.com/kraken/k2_standard_16gb_20240904.tar.gz
+# Unzip and move to the sub-directory *kraken_db*
+tar -xf k2_standard_16gb_20240904.tar.gz -C kraken_db
+# remove *tar.gz to save space
+rm -rf k2_standard_16gb_20240904.tar.gz
+```
