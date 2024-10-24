@@ -81,6 +81,7 @@ conda activate Snakemake
 snakemake -s Snakefile --use-conda --reason --cores <cores> -p
 ```
 NOTE: Add parameter -n (or --dry-run) to the command to see which steps will be executed without running them.
+
 NOTE: Add --configfile <configfile.yaml> to use a different config file than config.yaml.
 
 
