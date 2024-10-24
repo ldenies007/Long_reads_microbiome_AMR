@@ -1,0 +1,5 @@
+sample: ["merged_barcod11","merged_barcode09","merged_barcode10","merged_barcode12"]
+  # ["merged_barcode13","merged_barcode14","merged_barcode15"]
+sampledir: "/home/laura/VAST_data/VAST_P1"
+outdir: "../VAST_results"
+threads: 4 #adjust for different number of threads
