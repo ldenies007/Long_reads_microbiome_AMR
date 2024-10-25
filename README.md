@@ -27,7 +27,7 @@ git clone https://github.com/ldenies007/Long_reads_microbiome_AMR.git
 ## Pipeline environment (snakemake)
 ```
 # create the conda environment - primarily snakemake
-conda env create -f=envs/Snakemake.yaml
+conda env create -f=envs/snakemake.yaml
 ```
 You can activate and deactivate the environment using *conda activate Snakemake* and *conda deactivate*
 
