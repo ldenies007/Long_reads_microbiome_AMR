@@ -22,7 +22,7 @@ chmod u+x Miniconda3-py37_4.9.2-Linux-x86_64.sh
 # activate git lfs
 git lfs install
 # clone branch incl. sub-modules
-git clone -b master --recursive https://github.com/ldenies007/Long_reads_microbiome_AMR.git
+git clone https://github.com/ldenies007/Long_reads_microbiome_AMR.git
 ```
 ## Pipeline environment (snakemake)
 ```
